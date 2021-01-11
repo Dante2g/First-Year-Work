@@ -1,0 +1,56 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta chrset="UTF-8">
+    <title>MMU Video</title>
+    <script src="scripts/videoScript.js"></script>
+    <link rel="stylesheet" type="text/css" href="CSS/mystyle.css">
+</head>
+
+<body>
+    <header>
+        <h1>Aubrey Monk, 18026172, 2018</h1>
+    </header>
+
+    <section id="videoContiner">
+        <video width=640 height=360 poster="images/poster.jpg">
+            <source src="MP4/MMU.mp4" type="video/mp4">
+            <source src="webM/MMU.webm" type="video/webm">
+            <p>Your browser doesn't support this video, you can download the video file <a href="MP4/MMU.mp4">here.</a></p>
+        </video>
+
+        <div id="videoControls">
+
+            <button type="button" id="playPause">&#9658; </button>
+
+            <button type="button" id="muteUnmute">&#128266;</button>
+
+            <input type="range" id="volumeBar" min=0 max=100 step=10 value=0>
+
+            <input readonly type="text" id="currentVolume">
+
+            <input type="range" id="seekBar" min=0 max=100 step=1 value=0></input>
+
+            <input readonly type="text" id="currentTime">
+
+            <button type="button" id="backwardStep"> &#171; </button>
+
+            <button type="button" id="forwardStep"> &#187; </button>
+
+
+            <select id="playBackSpeed">
+                <option value="2">2.00x</option>
+                <option value="1.75">1.75x</option>
+                <option value="1.5">1.50x</option>
+                <option value="1.25">1.25x</option>
+                <option value="1">1.00x</option>
+                <option value="0.75">0.75x</option>
+                <option value="0.5">0.50x</option>
+            </select>
+
+        </div>
+    </section>
+</body>
+
+</html>

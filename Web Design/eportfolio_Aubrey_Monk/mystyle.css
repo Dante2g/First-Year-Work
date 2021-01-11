@@ -1,0 +1,222 @@
+body,
+a,
+nav,
+ul,
+li,
+article,
+p,
+footer,
+h1,
+section,
+header {
+    padding: 0;
+    /* Sets default margin and padding. */
+    margin: 0;
+}
+
+body {
+    background-color: #454b56;
+    /* Setting background color of body. */
+    font-family: Cambria, Helvetica, sans-serif;
+    /* Set font of text inside body. */
+}
+
+#banner {
+    max-width: 100%;
+    /* Enables image to be re-sized with the browser window. */
+    width: 100%;
+    display: block;
+    /* Removes gap under image. */
+}
+
+#me {
+    border-style: solid;
+    color: grey;
+    margin-bottom: 10px;
+    float: right;
+}
+
+
+#webdevIMG,
+#mePC {
+    border-style: solid;
+    color: grey;
+    margin-bottom: 10px;
+    float: right;
+}
+
+#programmingIMG {
+    border-style: solid;
+    color: grey;
+    margin-top: 10px;
+
+    max-width: 100%;
+    /* Enables image to be re-sized with the browser window. */
+
+}
+
+
+
+
+header {
+    text-align: center;
+    /* Centers text within the header. */
+    border-style: solid;
+    /* Creates border around header.*/
+    border-width: 1px;
+    /* Sets border width.*/
+    border-color: black;
+    background-color: #282b30;
+    /* Sets background color of header.*/
+    position: relative;
+    /* Postions text relative to header. */
+    width: auto;
+    color: #fff;
+    text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+    /* adds outline around text so it is more visible */
+}
+
+p {
+    font-family: Times New Roman, Times, sans-serif;
+    /* Set font of paragraphs. */
+    font-size: 1em;
+    /* Set font size of paragraph. */
+    color: grey;
+    font-weight: bold;
+
+}
+
+h1 {
+    font-size: 1.3em;
+    /* Sets font size of heading 1.*/
+    position: absolute;
+    /*Allows text to go over the heading image. */
+    bottom: 8px;
+    /* Positions text. */
+    left: 8px;
+    color: #cbcfd6;
+    /* Sets color of text */
+}
+
+nav {
+    background-color: #44474c;
+    list-style: none;
+    /*Removes bullet points. */
+    text-align: left;
+    /* Moves text to left side of the nav.*/
+    border-style: solid;
+    border-width: 1px;
+    border-top: 0px;
+    /* Used to remove clashing borders.*/
+    border-bottom: 0px;
+    padding-bottom: 1px;
+    padding-top: 1px;
+
+}
+
+
+nav li {
+    display: inline;
+    /* Makes list horizontal instead of vertical. */
+    margin-top: 5px;
+    border-style: solid;
+    border-color: #282b30;
+    border-width: 3px;
+    border-radius: 5px;
+    padding: 2.7px;
+    background-color: #4f5359;
+    margin-right: -1px;
+}
+
+nav a {
+    display: inline-block;
+    /* Alligns list items. */
+    color: #999999;
+    padding: 5px;
+    text-decoration: none;
+	/* Removes underline from text in the navigation. */
+}
+
+#container {
+    margin: auto;
+    /* Moves content to the centre in the viewport. */
+    height: auto;
+    /* Sets height of container. */
+    width: 99.2%;
+    /*Sets width of container. */
+    margin-top: 0.4%;
+    margin-bottom: 0.4%;
+}
+
+article {
+    background-color: #282b30;
+    border-style: solid;
+    border-width: 1px;
+    padding: 10px;
+    padding-top: 0px;
+}
+
+footer {
+    background-color: #282b30;
+    border-style: solid;
+    border-width: 1px;
+    border-top: 0px;
+    text-align: right;
+}
+
+li a:hover {
+    color: #000;
+    /* When cursor hovers over navigation menu the text color will change. */
+    font-weight: bold;
+    /* When cursor hovers over navigation menu the font will become bold. */
+}
+
+nav li:hover {
+    background-color: #7f8184;
+    /* When cursor hovers over navigation menu the background color of each individual item will change. */
+}
+
+h2 {
+    text-align: center;
+    color: grey;
+    font-weight: bold;
+    text-decoration: underline; 
+	/* Underliens text */
+}
+
+h3 {
+    text-align: left;
+    color: grey;
+    text-decoration: underline;
+}
+
+table,
+td,
+th {
+    border: 1px solid;
+    /* Creates border around table. */
+    color: grey;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    /* Allows table to be re-sized with window. */
+}
+
+th {
+    height: 50px;
+}
+
+/* When window size is below 800 pixels the navigations display style while turn to block. */
+@media (max-width: 800px) {
+    nav li {
+        display: block;
+    }
+
+}
+
+#InstagramLink,
+#MMULink {
+    color: deepskyblue
+}

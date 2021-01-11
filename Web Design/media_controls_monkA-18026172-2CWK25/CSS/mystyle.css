@@ -1,0 +1,15 @@
+#volumeBar{
+	width: 50px;
+}
+
+#currentVolume{
+	width: 15px;
+}
+
+#currentTime{
+	width: 35px;
+}
+
+#seekBar{
+	width: 300px;
+}
