@@ -4,5 +4,5 @@ Grades:
 Programming (95%),
 Computer System Fundamentals (93%), 
 Web Design and Development (87%), 
-Information Systems (78%), 
+Information Systems (78%).
 
